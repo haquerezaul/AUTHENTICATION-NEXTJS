@@ -68,6 +68,10 @@ function Login() {
           onChange={(e) => setUser({ ...user, password: e.target.value })}
           placeholder='password'
           />
+         
+          <Link href="/forgotpassword" className='text-blue-500'>Forgot Password?</Link>
+          <br />
+
           <button 
             className='p-2 border border-pink-400 rounded-lg
             mb-4 focus:outline-none focus:border-green-900'
